@@ -1,0 +1,59 @@
+# Python-specifika filer
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env.*
+*.venv
+venv/
+pip-log.txt
+*.log
+*.sqlite3
+
+# IDE-filer (anpassa efter din editor)
+.vscode/
+.idea/
+*.iml
+
+# Docker-specifika filer
+docker-compose.override.yml
+.dockerignore
+docker-data/
+*.tar
+*.pid
+
+# PostgreSQL-relaterat
+pgdata/
+*.pgpass
+
+# AWS och SSH-nycklar (viktigt att inte lägga upp känsliga filer!)
+*.pem
+*.key
+*.crt
+*.aws
+
+# Cache och temporära filer
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# NGINX
+nginx.conf
+sites-enabled/
+logs/
+
+# GitHub Actions cache
+.github/workflows/*.log
+.github/workflows/*.bak
+
+# OS-specifika filer
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python-tillfälliga filer
+.mypy_cache/
+pytest_cache/
